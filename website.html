@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Мэдээлэл зүй </title>
+</head>
+<body>
+  <header>
+      <div class="logo">
+          <h1 class="logo-text"><span> _no </span> meRcy </h1>
+      </div>
+      <i class="fa fa-bars menu-toggle"></i>
+      <ul class="nav">
+          <li><a href="index.html">Нүүр хуудас</a></li>
+          <li><a href="tuhai.html">Миний тухай</a></li>
+          <!-- <li><a href="#">Sign in</a></li>
+          <li><a href="#">Login</a></li> -->
+          <li>
+              <a href="#">
+                  <i class="fa fa-user"></i>
+                  Энхбаясгалан
+                  <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+              <ul>
+                <li><a href="#">Тохиргоо</a></li>
+                <li><a href="login.html" class="logout">Гарах</a></li>
+              </ul>
+            </li>
+      </ul>
+  </header>
+    <!-- Content -->
+    <div class="content clearfix">
+
+        <!-- Main Content -->
+        <div class="main-content single">
+            <h1 class="post-title">Веб сайт хэрхэн хийх вэ?</h1>
+
+            <div class="post-content">
+                <p> Веб сайт нь тодорхой нэг сэдвийн дагуух өөр хоорондоо гипертекстээр холбогдсон веб хуудсуудын цуглуулгыг веб сайт (Web Site) гэнэ. 
+                Олон веб хуудсуудаас тогтох цогц мэдээллийн санг веб сайт гэх ба веб сайтыг дуудахад хамгийн түрүүнд нээгдэх веб хуудсыг нүүр хуудас (Home Page) гэнэ.
+                Веб сайт хийхэд таньд компьютер, notepad эсвэл visual studio код бичдэг программ хэрэг болно. Үүний өмнө та HTML гэх хэлний тодорхой түвшиний мэдлэгтэй байх хэрэгтэй ба та энэ хэлийг
+                анхан шатийг доошоо гүйлгээд суралцаж болно. Үүний дараагаар та кодоо бичих гэж бүү яараарай эхлээд та ямар вэб сайт хийх гэж байгаа түүнийхээ загвар болон бүтэцийг гаргаж зурах эсвэл бичих хэрэгтэй.
+                Үүний дараагаар та төлөвлөгөө гарган кодоо бичиж веб хуудсаа хийж болно.</p>
+            <h2 class="post-title">HTML гэж юу вэ?</h2>
+            <p>
+                HTML гэдэг нь Hyper Text Markup Language гэсэн үгийн товчлол бөгөөд веб хуудсан текстийг хэрхэн харагдуулахыг веб браузерт зааж өгдөг программын 
+                кодчлол юм. Уг хэлийг Tim Berners-Lee 1991 онд шинжлэх ухааны бичиг баримтыг зохион байгуулах, өөр өөр платформ руу дамжуулах зорилгоор үүсгэсэн.
+            </p>
+            <img src="img/html.png" alt="" width="750" height="400">
+            <h2 class="post-title">HTML Кодчилолын Бүтэц </h2>
+            <p>HTML хуудасны үндсэн бүтцийг доор зургаар харуулсан. Энэ нь бүх веб хуудсыг үүсгэх үндсэн элементүүд (жишээлбэл, баримт бичгийн төрөл, HTML, толгой, гарчиг, 
+            биеийн элементүүд) агуулдаг.</p>
+            <img src="img/pagestructure.png" alt="" width="750" height="500">
+            <ul>
+            <li>"DOCTYPE! html" –- Баримт бичгийн төрөл эсвэл баримт бичгийн төрлийн мэдэгдэл нь веб хөтчид одоогийн хуудас бичигдсэн тэмдэглэгээний хэлийг хэлдэг заавар юм. Энэ нь элемент эсвэл таг биш юм. 
+            Баримт бичгийн хэв маягийн мэдэгдэл нь жижиг үсгийг харгалздаггүй.</li>
+            <li>"html"-- Энэ таг нь HTML баримт бичгийн үндсэн элементийг тодорхойлоход хэрэглэгддэг. Энэ таг нь HTML баримт бичиг гэдгийг хөтчид хэлдэг. Энэ нь бусад бүх элементүүдийг 
+            агуулсан хоёр дахь гаднах савны элемент юм.</li>
+            <li>"head"-- энэ таг нь баримт бичигтэй холбоотой мэдээллийг агуулсан HTML баримт бичгийн толгой хэсгийг тодорхойлоход хэрэглэгддэг. Толгойн таг доторх элементүүд веб хуудасны нүүрэн талд харагдахгүй байна.</li>
+            <li>"body"-- Үндсэн таг нь веб хуудасны харагдах бүх агуулгыг хаахад хэрэглэгддэг. Өөрөөр хэлбэл, үндсэн контент нь хөтөчийн нүүрэн талд харагдах зүйл юм.</li>
+            </ul>
+            <p>Жишээ нь</p>
+            <img src="img/Туршилт.png" alt="" width="750" height="1000">
+            <img src="img/хүснэгт.png" alt="" width="750" height="1000">
+            <p>Дэлгэрэнгүй судалж суралцвал доорх сайтаас сурч болно.</p>
+            <a href="https://www.geeksforgeeks.org/">https://www.geeksforgeeks.org/</a><br>
+            <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
+
+
+            </div>
+        </div>
+        <!-- //Main Content -->
+
+        <!-- Sidebar -->
+        <div class="sidebar single">
+
+            <div class="section popular">
+                <h2 class="section-title">Эрэлттэй</h2>
+
+                <div class="post clearfix">
+                    <img src="img/mdllzvi.jpeg" alt="">
+                    <a href="single.html" class="title"><h4>Веб гэж юу вэ?</h4></a>
+                </div>
+
+                <div class="post clearfix">
+                    <img src="img/Web-Hosting.jpeg" alt="">
+                    <a href="website.html" class="title"><h4>Веб яаж хийх вэ?</h4></a>
+                </div>
+
+                <div class="post clearfix">
+                    <img src="img/domain.jpeg" alt="">
+                    <a href="four.html" class="title"><h4>Домайн</h4></a>
+                </div>
+
+                <div class="post clearfix">
+                    <img src="img/ip.jpeg" alt="">
+                    <a href="ip.html" class="title"><h4>IP хаяг</h4></a>
+                </div>
+
+            </div>
+            <div class="section topics">
+                <h2 class="section-title">Сэдвүүд(орох гэж байгаа сэдвийнхээ дээд талд дарна уу.)</h2>
+                <ul>
+                    <li><a href="single.html"></a>Веб сайт, Веб сайтны тухай</li>
+                    <li><a href="four.html"></a>Домэйн</li>
+                    <li><a href="second.html"></a>Динамик Веб сайт</li>
+                    <li><a href="second.html"></a>Статик Веб сайт</li>
+                    <li><a href="five.html"></a>Гипер баримт, түүний формат</li>
+                    <li><a href="third.html"></a>Сервер гэж юу вэ?</li>
+                    <li><a href="ip.html"></a>IP хаяг гэж юу вэ?</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- //Sidebar -->
+  <!-- // Page Wrapper -->
+  <a href="index.html" class="btn read-more">Буцах</a>
+  </div>
+
+
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Slick Carousel -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Custom Script -->
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
